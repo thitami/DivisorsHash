@@ -35,7 +35,7 @@ public class DivisorsHash
 	}
 	
 	// find the Divisors of a given number
-	private List<Integer> findDividors(Integer inputKey)
+	private List<Integer> findDivisors(Integer inputKey)
 	{
 		 divisorsList.clear() ; // the List may contain elements from the previous call.
 		 
@@ -78,7 +78,7 @@ public class DivisorsHash
 			 {
 	             // Find the divisors of each element
 				 // System.out.println("Finding the Divisors of: " + inputKey) ; 
-				 this.findDividors(inputKey);
+				 this.findDivisors(inputKey);
 	    		System.out.println("key: " + inputKey + " value: " + map.get(inputKey));
 		     }
 		} // end for loop
